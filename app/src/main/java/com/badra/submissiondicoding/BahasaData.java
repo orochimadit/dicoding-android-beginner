@@ -1,5 +1,7 @@
 package com.badra.submissiondicoding;
 
+import java.util.ArrayList;
+
 public class BahasaData {
     public static String[][] data = new String[][]{
             {
@@ -32,4 +34,20 @@ public class BahasaData {
                     "PHP  atau Hypertext Preprocessor adalah sebuah bahasa pemrograman server side scripting yang bersifat open source. Secara umum, fungsi PHP adalah digunakan untuk pengembangan website. Di seluruh dunia sangat banyak website yang dibangun menggunakan PHP. Karena fleksibilitasnya yang tinggi, PHP juga bisa digunakan untuk membuat aplikasi komputer. PHP merupakan bahasa pemrograman yang bersifat open source. Pengguna bebas memodifikasi dan mengembangkan sesuai dengan kebutuhan"
             }
     };
+    public static ArrayList<BahasaPemograman> getListData(){
+        BahasaPemograman bahasa = null;
+        ArrayList<BahasaPemograman> list = new ArrayList<>();
+        for (int i = 0; i<data.length; i++){
+            bahasa = new BahasaPemograman();
+            bahasa.setName(data[i][0]);
+            bahasa.setNote(data[i][1]);
+            bahasa.setPhoto(data[i][2]);
+            bahasa.setDesc(data[i][3]);
+
+
+            list.add(bahasa);
+        }
+
+        return list;
+    }
 }

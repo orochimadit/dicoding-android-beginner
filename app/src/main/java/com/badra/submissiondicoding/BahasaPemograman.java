@@ -56,6 +56,9 @@ public class BahasaPemograman implements Parcelable {
             return new BahasaPemograman[size];
         }
     };
+    public BahasaPemograman() {
+
+    }
 
     @Override
     public int describeContents() {
