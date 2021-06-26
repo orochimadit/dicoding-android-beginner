@@ -32,6 +32,31 @@ public class BahasaData {
                     "Hypertext PreProcessor",
                     "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/640px-PHP-logo.svg.png",
                     "PHP  atau Hypertext Preprocessor adalah sebuah bahasa pemrograman server side scripting yang bersifat open source. Secara umum, fungsi PHP adalah digunakan untuk pengembangan website. Di seluruh dunia sangat banyak website yang dibangun menggunakan PHP. Karena fleksibilitasnya yang tinggi, PHP juga bisa digunakan untuk membuat aplikasi komputer. PHP merupakan bahasa pemrograman yang bersifat open source. Pengguna bebas memodifikasi dan mengembangkan sesuai dengan kebutuhan"
+            },
+            {       "C",
+                    "Bahasa Pemograman C",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/The_C_Programming_Language_logo.svg/564px-The_C_Programming_Language_logo.svg.png",
+                    " C / C ++ seperti roti dan mentega pemrograman. Hampir semua sistem level rendah seperti sistem operasi, sistem file, dll ditulis dalam C / C ++. Jika Anda ingin menjadi programmer tingkat sistem, C / C ++ adalah bahasa yang harus Anda pelajari. C ++ juga banyak digunakan oleh programmer kompetitif karena fakta bahwa itu sangat cepat dan stabil. C ++ juga menyediakan sesuatu yang disebut STL – Standard Template Library. STL adalah kumpulan pustaka yang siap digunakan untuk berbagai struktur data, operasi aritmatika, dan algoritma. Dukungan perpustakaan dan kecepatan bahasa menjadikannya pilihan populer di komunitas perdagangan frekuensi tinggi juga"
+            },
+            {       "GO",
+                    "GO Programming Language",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Go_gopher_app_engine_bw.jpg/800px-Go_gopher_app_engine_bw.jpg",
+                    "Go, juga dikenal sebagai Golang, adalah bahasa pemrograman yang dibangun oleh Google. Go menyediakan dukungan luar biasa untuk multithreading dan, itu digunakan oleh banyak perusahaan yang sangat bergantung pada sistem terdistribusi. Go banyak digunakan dalam startup di Silicon Valley. Namun, itu belum diadopsi oleh perusahaan / startup India. Mereka yang ingin bergabung dengan startup berbasis Valley yang berspesialisasi dalam sistem inti harus menguasai Golang."
+            },
+            {       "R",
+                    "R Programming Language",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Font_Awesome_5_brands_r-project.svg/512px-Font_Awesome_5_brands_r-project.svg.png",
+                    "R programming language  adalah salah satu bahasa pemrograman yang paling umum digunakan untuk Analisis Data dan Pembelajaran Mesin. R menyediakan kerangka kerja yang sangat baik dan perpustakaan bawaan untuk mengembangkan algoritma Machine Learning yang kuat. R juga digunakan untuk komputasi statistik umum dan juga grafik. R telah diadopsi dengan baik oleh perusahaan. Mereka yang ingin bergabung dengan tim “Analisis” dari sebuah organisasi besar harus benar-benar belajar R."
+            },
+            {       "Swift",
+                    "Swift Programming Language",
+                    "https://commons.wikimedia.org/wiki/File:Swift_logo.svg",
+                    "Swift adalah bahasa pemrograman yang digunakan untuk mengembangkan aplikasi iOS. Perangkat berbasis iOS menjadi semakin populer. Apple iPhone, misalnya, telah merebut pangsa pasar yang signifikan dan memberikan persaingan yang ketat untuk Android. Oleh karena itu, mereka yang ingin melayani komunitas ini dapat mempelajari pemrograman Swift."
+            },
+            {       "Matlab",
+                    "MatlabProgramming Language",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/667px-Matlab_Logo.png",
+                    "MATLAB adalah alat analisis statistik yang digunakan di berbagai industri untuk Analisis Data. MATLAB digunakan secara luas dalam Visi Komputer dan industri pemrosesan Gambar juga."
             }
     };
     public static ArrayList<BahasaPemograman> getListData(){

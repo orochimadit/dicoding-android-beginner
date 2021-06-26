@@ -67,8 +67,9 @@ public class CardViewBahasaAdapter extends RecyclerView.Adapter<CardViewBahasaAd
         }
         @Override
         public void onClick(View view) {
-            //Intent intent= new Intent ();
-            //Intent intent= new Intent ();
+            Intent intent= new Intent (context, DetailBahasaActivity.class);
+            intent.putExtra("listku",bahasa);
+            context.startActivity(intent);
         }
     }
 }
